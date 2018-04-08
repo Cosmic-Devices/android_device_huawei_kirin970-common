@@ -66,3 +66,5 @@ TARGET_LD_SHIM_LIBS := \
     /system/lib64/libdisplayenginesvc_1_1.so|libshims_hwsmartdisplay_jni.so \
     /system/lib64/libhwsmartdisplay_jni.so|libshims_hwsmartdisplay_jni.so \
     /vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service|libshims_hisupl.so
+
+TARGET_RRO_OUT_SYSTEM := true
