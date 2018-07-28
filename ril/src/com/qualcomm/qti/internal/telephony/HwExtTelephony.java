@@ -192,7 +192,7 @@ public class HwExtTelephony extends IExtTelephony.Stub {
                 continue;
             }
 
-            sCommandsInterfaces[slotId].setUiccSubscription(slotId, i, sPhones[slotId].getSubId(), activate ? 1 : 0, null);
+            sCommandsInterfaces[slotId].setUiccSubscription(i, activate, null);
         }
     }
 
